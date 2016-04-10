@@ -6,5 +6,5 @@ public interface LBSGeoService {
 	 * @param latlng JSON格式的经纬度坐标，如lat:31.325152,lng:120.558957
 	 * @return
 	 */
-	public PoiInfo geocode(String latlng);
+	public PoiInfo geoCoding(String latlng);
 }
